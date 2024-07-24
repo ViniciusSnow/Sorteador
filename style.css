@@ -62,17 +62,19 @@ button {
 }
 
 button:hover {
-opacity: 0.9s;
-transition:after;
+    color: darkorange;
+    font-size: 42px;
+    transition: 0.5s ease;
 }
 
-button:active{
-color:rgba(255, 255, 255, 1); 
-transition: 1s;
+button:active {
+    color:chartreuse;
+    transition: 1s ease-in-out;
 }
-input:active{
-opacity: 0.9s;
-min-height: 10%;
-transition: 1s;
-    
+
+input:active {
+    opacity: 0.9s;
+    min-width: 10%;
+    transition: 1s ease-in-out;
+
 }
